@@ -5,28 +5,37 @@
     android:orientation="vertical"
     android:padding="20dp">
 
-    <Button
-        android:id="@+id/record_button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:text="START" />
+  <Button
+      android:id="@+id/record_button"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_centerHorizontal="true"
+      android:text="START"/>
 
-    <Button
-        android:id="@+id/stop_record_button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/record_button"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="25dp"
-        android:text="STOP" />
+  <Button
+      android:id="@+id/stop_record_button"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_below="@id/record_button"
+      android:layout_centerHorizontal="true"
+      android:layout_marginTop="25dp"
+      android:text="STOP"/>
 
-    <Button
-        android:id="@+id/play_sound_button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/stop_record_button"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="25dp"
-        android:text="PLAY" />
+  <Button
+      android:id="@+id/play_sound_button"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_below="@id/stop_record_button"
+      android:layout_centerHorizontal="true"
+      android:layout_marginTop="25dp"
+      android:text="PLAY"/>
+
+  <Button
+      android:id="@+id/button_test"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_alignParentBottom="true"
+      android:layout_centerHorizontal="true"
+      android:layout_marginTop="25dp"
+      android:text="PERMISSION TEXT"/>
 </RelativeLayout>
